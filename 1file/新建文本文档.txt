@@ -1,0 +1,9 @@
+cd C:\Program Files\Windows Defender\
+MpCmdRun -Scan -ScanType 3 -File F:\iso
+cd D:\Users\Steven\Source\idark
+rar a -pidark get 1.cmd 
+unrar e -pidark get.rar
+//MpCmdRun -Scan -ScanType 1
+echo:shutdown
+pause
+//shutdown -s -t 360
